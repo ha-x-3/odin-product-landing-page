@@ -22,15 +22,15 @@ nav {
   align-items: center;
   justify-content: space-between;
   gap: 50px;
-  max-width: 80vw;
+  max-width: 70vw;
   margin: auto;
-  padding: 10px 6em;
+  padding-top: 10px;
 }
 
 ul {
   list-style: none;
   display: flex;
-  gap: 15px;
+  gap: 30px;
   font-weight: 100;
 }
 
@@ -51,7 +51,7 @@ p {
 }
 
 button {
-  width: 150px;
+  width: 120px;
   background-color: #3882f6;
   color: var(--white);
   border-radius: 8px;
@@ -61,10 +61,10 @@ button {
 }
 
 img {
-  border: 2px solid #3882f6;
-  border-radius: 8px;
-  width: 150px;
-  height: 150px;
+  border: 3px solid #3882f6;
+  border-radius: 15px;
+  width: 200px;
+  height: 200px;
 }
 
 footer {
@@ -88,17 +88,16 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 6em;
-  max-width: 80vw;
+  max-width: 70vw;
   margin: auto;
-  gap: 5px;
+  padding: 100px 0;
 }
 
 .placeholder {
   order: 4;
-  background-color: #a2a1a1a8;
-  width: 450px;
-  height: 250px;
+  background-color: rgba(160, 160, 162, 0.661);
+  width: 600px;
+  height: 230px;
   font-size: 18px;
   display: flex;
   align-items: center;
@@ -112,19 +111,25 @@ footer {
   width: 450px;
 }
 
+.hero p {
+  color: var(--lightgrey);
+  font-size: 18px;
+}
 .random-info {
   padding-top: 40px;
   width: 80vw;
   margin: auto;
   display: flex;
   flex-direction: column;
+  font-size: 36px;
+  font-weight: 900;
 }
 
 .grid {
   display: flex;
-  padding-top: 40px;
+  padding-top: 60px;
   padding-bottom: 100px;
-  gap: 40px;
+  gap: 60px;
   justify-content: center;
   align-items: center;
   margin: auto;
@@ -138,9 +143,9 @@ footer {
 }
 
 .grid-item p {
-  font-size: 12px;
-  width: 150px;
-  padding: 5px;
+  font-size: 18px;
+  width: 180px;
+  padding: 8px;
 }
 
 .quote {
@@ -156,19 +161,18 @@ footer {
   font-size: 36px;
   font-weight: 100;
   font-style: italic;
-  max-width: 57.20vw;
+  max-width: 50vw;
   margin: auto; 
   text-align: justify;
 }
 
 .quote-credit {
   font-weight: 700;
-  font-style: normal;
-  padding: 0 300px 0 0;
+  padding: 0 430px 0 0;
 }
 
 .action {
-  margin: 50px 75px;
+  margin: 100px 75px;
 }
 
 .container {
@@ -182,7 +186,11 @@ footer {
   align-items: center;
   justify-content: center;
   border-radius: 4px;
-  gap: 50px;
+  gap: 250px;
+}
+
+.container p {
+  color: var(--lightgrey);
 }
 
 .action-left {
@@ -190,5 +198,6 @@ footer {
 }
 
 .white-border {
-  border: 1px solid white;
+  border: 2px solid white;
+  margin-bottom: 20px;
 }
